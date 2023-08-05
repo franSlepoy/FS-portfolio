@@ -16,7 +16,7 @@ const SobreMi = () => {
         <Typography mt={1} variant="body2"> •Experiencia en las siguientes tecnologías: React JS, Java Script, HTML, CSS, Material UI, Chakra,  Node JS, Express, SQL,  Sequelize, EJS.  </Typography>
         <Typography mt={1} variant="body2">• Como músico compositor e interprete (de 2004 a la  2022) he liderado mis proyectos de música original grabando 7 discos solistas, integrado grupos de jazz y orquestas sinfónicas de música académica contemporánea y clásica, presentándome en algunos de los mas importantes escenarios de Buenos Aires:
 Teatro Colón, Usina del Arte, Museo de Arte Decorativo y Museo de Arte Moderno. Realice 2 giras por Europa.</Typography>
-        <Typography mt={1} variant="body2">• Como docente de música dí clases grupales e individuales de guitarra/jazz, armonía, improvisación, composición y audio perceptiva. Desde 2010 a 2020, dirigí un taller de arte terapia para adultos mayores en Residencia Ugarteche (instituto geriátrico) 2021 a 2022. En mis inicios dí talleres para grupos de niños y adolescentes.</Typography>
+        <Typography mt={1} variant="body2">• Como docente de música dí clases grupales e individuales de guitarra/jazz, armonía, improvisación, composición y audio perceptiva. Desde 2020 a 2021, dí un taller de arte terapia para adultos mayores en Residencia Ugarteche (instituto geriátrico). En mis inicios dí talleres para grupos de niños y adolescentes.</Typography>
         </CardContent>
        
         
