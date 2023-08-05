@@ -1,11 +1,13 @@
+import { tyme, tyme1 } from "./Imagenes";
+
 export const TymeData = [
     {id: 1,
-     imagen: "/imagenes/tyme/tyme.png",
+     imagen: tyme,
      titulo: "Tyme",
      link:"/tyme"
     },
     {id: 2,
-        imagen: "/imagenes/tyme/tyme1.png",
+        imagen: tyme1,
      titulo: "Tyme",
      link:"/tyme"
     },

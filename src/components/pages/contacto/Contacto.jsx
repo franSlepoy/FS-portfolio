@@ -35,7 +35,7 @@ const Contacto = () => {
         sx={{ width: 333, mb:3}}
         /> <br />
         <Button type="submit" value="Send" variant="contained" > Enviar </Button>
-        
+        <Typography mt={1}>slepoyfrancisco@gmail.com</Typography>
 
     </Box>
    

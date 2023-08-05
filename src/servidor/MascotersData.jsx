@@ -1,21 +1,23 @@
+import { mascoters, mascoters1, mascoters3, mascoters4 } from "./Imagenes";
+
 export const MascotersData = [
     {id: 1,
-     imagen: "/imagenes/mascoters/mascoters.png",
+     imagen: mascoters,
      titulo: "Mascoters",
      link:"/mascoters"
     },
     {id: 2,
-        imagen: "/imagenes/mascoters/mascoters1.png",
+        imagen: mascoters1,
         titulo: "Mascoters",
         link:"/mascoters"
        },
        {id: 4,
-        imagen: "/imagenes/mascoters/mascoters3.png",
+        imagen: mascoters3,
      titulo: "Mascoters",
      link:"/mascoters"
        },
        {id: 5,
-        imagen: "/imagenes/mascoters/mascoters4.png",
+        imagen: mascoters4,
      titulo: "Mascoters",
      link:"/mascoters"
        },

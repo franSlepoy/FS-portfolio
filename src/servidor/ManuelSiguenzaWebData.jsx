@@ -1,51 +1,53 @@
+import { mg, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, mg9 } from "./Imagenes";
+
 export const manuelSiguenzaWebData = [
     {id: 1,
-     imagen: "/imagenes/manuelSiguenzaWeb/mg.png",
+     imagen: mg,
      titulo: "Manuel Siguenza Web",
      link:"/manuelSiguenzaWeb"
     },
     {id: 2,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg1.png",
+        imagen: mg1,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 3,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg2.png",
+        imagen: mg2,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 4,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg3.png",
+        imagen: mg3,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 5,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg4.png",
+        imagen: mg4,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 6,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg5.png",
+        imagen: mg5,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 7,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg6.png",
+        imagen: mg6,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 8,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg7.png",
+        imagen: mg7,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 9,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg8.png",
+        imagen: mg8,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
        {id: 10,
-        imagen: "/imagenes/manuelSiguenzaWeb/mg9.png",
+        imagen: mg9,
         titulo: "Manuel Siguenza Web",
         link:"/manuelSiguenzaWeb"
        },
