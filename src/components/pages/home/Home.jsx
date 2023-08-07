@@ -6,7 +6,8 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import { WebsData } from '../../../servidor/Webs';
 import { NavLink } from 'react-router-dom'
 import { Typography } from '@mui/material';
-import mg from "/public/imagenes/manuelSiguenzaWeb/mg.png"
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery'; 
 
 
 export default function Home() {
@@ -19,10 +20,12 @@ export default function Home() {
         height: '100%',
         objectFit: 'cover',
     };
+    const theme = useTheme(); // Obtiene el theme
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   return (
        
         <Box sx={{ width: "100%"}} >
-      <ImageList sx={{ margin:3, mt:22,  overflow: 'hidden'}}  variant="standard"  cols={2} gap={23} >
+      <ImageList sx={{ margin:3, mt:25,  overflow: 'hidden'}}  variant="standard"  cols={isMobile ? 1 : 2} gap={23}  >
         {WebsData.map((seccion) => (
           <ImageListItem key={seccion.id} component={NavLink} to={seccion.link} style={linkStyle} sx={{color:"black", width:"100%", margin:0}}>
             <Typography mb={2} mt={2} variant="h5" color={"Highlight"}   ml={2}>{seccion.titulo}</Typography>

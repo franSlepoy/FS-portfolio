@@ -17,11 +17,11 @@ export default function NavListDrawer() {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="" >
+            <ListItemButton component="a" href="/FS-portfolio/contacto" >
               <ListItemIcon>
               <EmailTwoToneIcon/>
               </ListItemIcon>
-              <ListItemText primary="Contacto"/>
+              <ListItemText sx={{ml:-3}} primary="Contacto"/>
             </ListItemButton>
           </ListItem>
         </List>
@@ -30,25 +30,16 @@ export default function NavListDrawer() {
       <nav aria-label="secondary mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" >
-            <ListItemText primary="Decomiso"  />
+            <ListItemButton component="a" href="/FS-portfolio/"  >
+            <ListItemText primary="Proyectos Web"  />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" >
-            <ListItemText primary="Encuentro con el Mataco"  />
+            <ListItemButton component="a" href="/FS-portfolio/sobreMi"  >
+            <ListItemText primary="Sobre mi"  />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" >
-            <ListItemText primary="Otro proyecto"  />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" >
-            <ListItemText primary="Otro proyecto"  />
-            </ListItemButton>
-          </ListItem>
+          
           
         </List>
       </nav>

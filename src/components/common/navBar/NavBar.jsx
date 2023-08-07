@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import NavListDrawer from './NavListDrawer'
 import { NavLink } from 'react-router-dom'
 import miFoto from "/public/imagenes/miFoto.jpg"
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 const NavBar = () => {
@@ -28,8 +28,8 @@ const NavBar = () => {
         <Typography ml={1} sx={{mt:2}} variant="h4" style={linkStyle}>Francisco Slepoy</Typography> <br />
         <Typography ml={1} sx={{mt:-3}} variant="subtitle1"> Programador Web (Full Stack) </Typography>
         </Box>
-        <Button variant="outlined" sx={{ padding:0, mt:-10, color:"black",display: { xs: "block", sm:"none"}}} color="inherit" onClick={()=> setOpen(true)}>
-          <Typography color={"Highlight"} variant="h9" >menu </Typography> 
+        <Button  startIcon={<MenuIcon />} variant="outlined" sx={{ margin:"auto", border:"none", fontSize:20, padding:0, mt:2 , color:"black",display: { xs: "block", sm:"none"}}} color="inherit" onClick={()=> setOpen(true)}>
+        <Typography color={"Highlight"} variant="button" >menu </Typography>  
         </Button>
        
        </Toolbar>

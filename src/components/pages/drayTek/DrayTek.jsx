@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Typography, useMediaQuery, useTheme } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import Carousel from 'react-material-ui-carousel'
@@ -6,11 +6,21 @@ import { DrayTekData } from '../../../servidor/DraytekData'
 import ImagenCard from '../../common/imagenCard/Imagencard'
 
 const DrayTek = () => {
+  const theme = useTheme(); // Obtiene el theme
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica si es móvil
+
+  const carouselStyle = {
+    width: isMobile ? '100%' : '70%',  
+    height:  isMobile ? '200' : '450', 
+    margin: isMobile ? 1 : 3, 
+  };
+
+ 
   return (
     <>
-    <Box display={"flex"} mt={25}> 
+    <Box sx={{ display: { xs: 'block', sm: 'flex' } }} mt={30}> 
     
-     <Carousel sx={{width:"70%", height:450, margin:2}}
+     <Carousel sx={carouselStyle}
        
        >
          {
@@ -18,7 +28,9 @@ const DrayTek = () => {
          }
       </Carousel> 
       <Box>
-      <Typography mt={15}    variant='h4' color={"Highlight"} >Dray Tek Argentina</Typography><br />
+      <Typography mt={5}
+            variant='h4'
+            color={'Highlight'} >Dray Tek Argentina</Typography><br />
       <Typography  variant="subtitle1" > Web de empresa imporadora de routers y servicios de soporte, realizada con React Js. y sus librerias Material IU, react router dom y Email Js. </Typography> 
       </Box>
       
