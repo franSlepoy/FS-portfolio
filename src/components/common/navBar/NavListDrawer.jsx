@@ -7,6 +7,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import EmailTwoToneIcon from '@mui/icons-material/EmailTwoTone';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -17,7 +18,7 @@ export default function NavListDrawer() {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="/FS-portfolio/contacto" >
+            <ListItemButton component={NavLink} to={"FS-portfolio/contacto"} >
               <ListItemIcon>
               <EmailTwoToneIcon/>
               </ListItemIcon>
@@ -30,12 +31,12 @@ export default function NavListDrawer() {
       <nav aria-label="secondary mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="/FS-portfolio/"  >
+            <ListItemButton component={NavLink} to={"FS-portfolio/"}  >
             <ListItemText primary="Proyectos Web"  />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="/FS-portfolio/sobreMi"  >
+            <ListItemButton component={NavLink} to={"FS-portfolio/sobreMi"}  >
             <ListItemText primary="Sobre mi"  />
             </ListItemButton>
           </ListItem>

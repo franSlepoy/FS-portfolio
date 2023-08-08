@@ -36,10 +36,10 @@ const NavBar = () => {
        
         <Toolbar sx={{justifyContent:"flex-start"}}>
            
-        <Button variant="outlined" sx={{ color:"black", display: { xs: "none", sm:"block"}}} component={NavLink} to={"/FS-portfolio/"}>proyectos web</Button>
-        <Button variant="outlined" sx={{ ml:1, color:"black",display: { xs: "none", sm:"block"}}} component={NavLink} to={"/FS-portfolio/sobreMi"} >sobre mi</Button>
+        <Button variant="outlined" sx={{ color:"black", display: { xs: "none", sm:"block"}}} component={NavLink} to={"FS-portfolio/"}>proyectos web</Button>
+        <Button variant="outlined" sx={{ ml:1, color:"black",display: { xs: "none", sm:"block"}}} component={NavLink} to={"FS-portfolio/sobreMi"} >sobre mi</Button>
         {/* <Button variant="outlined" sx={{ ml:1,color:"black",display: { xs: "none", sm:"block"}}} component={NavLink} to={"/musica"} >música</Button> */}
-        <Button variant="outlined" sx={{ ml:1,color:"black",display: { xs: "none", sm:"block"}}} component={NavLink} to={"/FS-portfolio/contacto"} >contacto</Button>
+        <Button variant="outlined" sx={{ ml:1,color:"black",display: { xs: "none", sm:"block"}}} component={NavLink} to={"FS-portfolio/contacto"} >contacto</Button>
         
         
        
