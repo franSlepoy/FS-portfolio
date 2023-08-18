@@ -28,7 +28,7 @@ const ArgentinaPrograma = () => {
       <Box>
       <Typography mt={5}
             variant='h4'
-            color={'Highlight'}  >Mi CV. Proyecto final de Argentina Programa 4.0</Typography><br />
+            color={'Highlight'}  > Proyecto final de Argentina Programa 4.0</Typography><br />
       <Typography  variant="subtitle1" > Pagina realizada con Java Script, HTML y CSS </Typography> 
       </Box>
       
