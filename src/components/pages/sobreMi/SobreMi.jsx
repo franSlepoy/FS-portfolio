@@ -17,7 +17,7 @@ const SobreMi = () => {
     document.body.removeChild(link);
   };
   return (
-  <Box sx={{marginTop:22}}>
+  <Box sx={{marginTop:28}}>
      <Box margin={"auto"}  width={"60%"} sx={{ display: { xs: 'block', sm: 'flex' } }}>
         <Box sx={{mt:2}}>
         <img width={200} height={200} src={miFoto} alt="mi foto" />

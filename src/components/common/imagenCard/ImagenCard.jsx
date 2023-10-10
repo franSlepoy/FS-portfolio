@@ -11,7 +11,7 @@ export default function ImagenCard(props) {
     };
   return (
     <Card>
-      <CardActionArea>
+      <CardActionArea >
         <CardMedia
           sx={{margin:0}}
           style={imageStyle}

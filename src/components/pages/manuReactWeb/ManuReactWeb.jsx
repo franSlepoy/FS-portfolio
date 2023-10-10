@@ -10,7 +10,7 @@ const ManuReactWeb = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica si es móvil
 
   const carouselStyle = {
-    width: isMobile ? '100%' : '70%',  
+    width: isMobile ? '90%' : '70%',  
     height:  isMobile ? '200' : '450', 
     margin: isMobile ? 1 : 3, 
   };
@@ -27,6 +27,7 @@ const ManuReactWeb = () => {
         </Carousel>
         <Box>
           <Typography
+            m={1}
             mt={5}
             variant='h4'
             color={'Highlight'}
@@ -34,7 +35,7 @@ const ManuReactWeb = () => {
             Manuel Siguenza Web
           </Typography>
           <br />
-          <Typography  variant='subtitle1'>
+          <Typography m={1} width={"90%"}  variant='subtitle1'>
             Web del artista visual Manuel Siguenza, realizada con React Js. y
             sus librerias Material IU, react router dom y Email Js.
           </Typography>

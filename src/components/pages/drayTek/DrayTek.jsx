@@ -10,7 +10,7 @@ const DrayTek = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica si es móvil
 
   const carouselStyle = {
-    width: isMobile ? '100%' : '70%',  
+    width: isMobile ? '90%' : '70%',  
     height:  isMobile ? '200' : '450', 
     margin: isMobile ? 1 : 3, 
   };
@@ -28,10 +28,10 @@ const DrayTek = () => {
          }
       </Carousel> 
       <Box>
-      <Typography mt={5}
+      <Typography m={1} mt={5}
             variant='h4'
             color={'Highlight'} >Dray Tek Argentina</Typography><br />
-      <Typography  variant="subtitle1" > Web de empresa imporadora de routers y servicios de soporte, realizada con React Js. y sus librerias Material IU, react router dom y Email Js. </Typography> 
+      <Typography m={1} width={"90%"}  variant="subtitle1" > Web de empresa imporadora de routers y servicios de soporte, realizada con React Js. y sus librerias Material IU, react router dom y Email Js. </Typography> 
       </Box>
       
       

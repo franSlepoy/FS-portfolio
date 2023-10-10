@@ -9,7 +9,7 @@ const RickAndMorty = () => {
   const theme = useTheme(); // Obtiene el theme
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica si es móvil
   const carouselStyle = {
-    width: isMobile ? '100%' : '70%',  
+    width: isMobile ? '90%' : '70%',  
     height:  isMobile ? '200' : '450', 
     margin: isMobile ? 1 : 3, 
   };
@@ -25,10 +25,10 @@ const RickAndMorty = () => {
          }
       </Carousel> 
       <Box>
-      <Typography   mt={5}
+      <Typography  m={1}  mt={5}
             variant='h4'
             color={'Highlight'} >Rick and Morty App</Typography><br />
-      <Typography  variant="subtitle1" > Web de práctica que consume datos de una API publica con datos de todos los personajes de Rick and Morty. Realizada con React Js. y sus librerias Material UI y React router dom </Typography> 
+      <Typography width={"90%"} m={1} variant="subtitle1" > Web de práctica que consume datos de una API publica con datos de todos los personajes de Rick and Morty. Realizada con React Js. y sus librerias Material UI y React router dom </Typography> 
       </Box>
       
       

@@ -12,6 +12,7 @@ import SobreMi from "./components/pages/sobreMi/SobreMi"
 import Tyme from "./components/pages/tyme/Tyme"
 import Umeni from "./components/pages/umeni/Umeni"
 import ViajesEspaciales from "./components/pages/viajesEspaciales/ViajesEspaciales"
+import FG from "./components/pages/f&g/FG"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route path='/FS-portfolio/drayTeK' element={<DrayTek/>}/>
       <Route path='/FS-portfolio/mascoters' element={<Mascoters/>}/>
       <Route path='/FS-portfolio/tyme' element={<Tyme/>}/>
+      <Route path='/FS-portfolio/f&g' element={<FG/>}/>
       <Route path='/FS-portfolio/viajesEspaciales' element={<ViajesEspaciales/>}/>
       <Route path='/FS-portfolio/rickAndMortyAppi' element={<RickAndMorty/>}/>
       <Route path='/FS-portfolio/argentinaPrograma' element={<ArgentinaPrograma/>}/>

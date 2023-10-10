@@ -26,8 +26,13 @@ export const mascoters4 = '/FS-portfolio/imagenes/mascoters/mascoters4.png';
 
 
 
-export const tyme = "/FS-portfolio/imagenes/tyme/tyme.png" ;
 export const tyme1 = "/FS-portfolio/imagenes/tyme/tyme1.png" ;
+export const tyme2 = "/FS-portfolio/imagenes/tyme/tyme2.png" ;
+export const tyme3 = "/FS-portfolio/imagenes/tyme/tyme3.png" ;
+export const tyme4 = "/FS-portfolio/imagenes/tyme/tyme4.png" ;
+export const tyme5 = "/FS-portfolio/imagenes/tyme/tyme5.png" ;
+export const tyme6 = "/FS-portfolio/imagenes/tyme/tyme6.png" ;
+export const tyme7 = "/FS-portfolio/imagenes/tyme/tyme7.png" ;
 
 
 export const ve = "/FS-portfolio/imagenes/viajesEspacialesAPI/ve.png";
@@ -57,3 +62,10 @@ export const umeni = "/FS-portfolio/imagenes/umeniWeb/umeni2.png"
 export const umeni1 = "/FS-portfolio/imagenes/umeniWeb/umeni1.png"
 export const umeni2 = "/FS-portfolio/imagenes/umeniWeb/umeni3.png"
 export const umeni3 = "/FS-portfolio/imagenes/umeniWeb/umeni4.png"
+
+export const fg1 = "/FS-portfolio/imagenes/fg/fg1.png"
+export const fg2 = "/FS-portfolio/imagenes/fg/fg2.png"
+export const fg3 = "/FS-portfolio/imagenes/fg/fg3.png"
+export const fg4 = "/FS-portfolio/imagenes/fg/fg4.png"
+export const fg5 = "/FS-portfolio/imagenes/fg/fg5.png"
+export const fg6 = "/FS-portfolio/imagenes/fg/fg6.png"

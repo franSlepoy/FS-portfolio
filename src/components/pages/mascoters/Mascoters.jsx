@@ -9,7 +9,7 @@ const Mascoters = () => {
   const theme = useTheme(); // Obtiene el theme
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica si es móvil
   const carouselStyle = {
-    width: isMobile ? '100%' : '70%',  
+    width: isMobile ? '90%' : '70%',  
     height:  isMobile ? '200' : '450', 
     margin: isMobile ? 1 : 3, 
   };
@@ -25,11 +25,11 @@ const Mascoters = () => {
          }
       </Carousel> 
       <Box>
-      <Typography  mt={5}
+      <Typography m={1}  mt={5}
             variant='h4'
             color={'Highlight'} >Mascoters</Typography><br />
-      <Typography  variant="subtitle1" > Programacion Front End en la aplizacion web de www.mascoters.com.ar </Typography>
-      <Typography variant="subtitle1" > La misma esta en construcción y consumirá datos de una API, además  el registro y logeo de usuarios será a travéz de Firebase y manejará geolocalización.  </Typography> 
+      <Typography m={1} width={"90%"}  variant="subtitle1" > Programacion Front End en la aplizacion web de www.mascoters.com.ar </Typography>
+      <Typography m={1} width={"90%"} variant="subtitle1" > La misma esta en construcción y consumirá datos de una API, además  el registro y logeo de usuarios será a travéz de Firebase y manejará geolocalización.  </Typography> 
       </Box>
       
       
