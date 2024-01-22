@@ -26,9 +26,9 @@ const SobreMi = () => {
         <CardContent>
        
         <Typography mt={-1} variant="h6">Programador full stack ( React JS. - Node JS.) </Typography>
-        <Typography mt={1}  color= "" variant="body2">•Estoy trabajando de manera freelance para distintos proyectos como desarrollador front end: Dray Tek Argentina (empresa de importación de ruters), Manuel Siguenza (artista visual),  Faibovich & Goldberg (artistas visuales e investigadores), Tyme (empresa española de recursos humanos) y haciendo el front de la versión web de www.mascoters.com.ar.</Typography>
+        <Typography mt={1}  color= "" variant="body2">•Estoy trabajando de manera freelance para distintos proyectos: Tyme (empresa española de recursos humanos), Faibovich & Goldberg (artistas visuales e investigadores), Dray Tek Argentina (empresa de importación de ruters), Manuel Siguenza (artista visual). En este momento en desarrollo de un e-commerce para Franca (empresa de de Uruguay de sillones y muebles) y una página autoadministrable para Ordoñez Wenzke (estudio de arquitectura)  .</Typography>
         <Typography mt={1} variant="body2">•Me recibí del curso de FullStack ( Java Script - Node JS. - React) de Digital House y del curso de Programación front-end de Argentina Programa 4.0.   </Typography>
-        <Typography mt={1} variant="body2"> •Experiencia en las siguientes tecnologías: React JS, Java Script, HTML, CSS, Material UI, Chakra,  Node JS, Express, SQL,  Sequelize, MVC, EJS.  </Typography>
+        <Typography mt={1} variant="body2"> •Experiencia en las siguientes tecnologías: React JS, Java Script, HTML, CSS, Material UI, Chakra, Firebase, Node JS, Express, SQL,  Sequelize, MVC, EJS.  </Typography>
         <Typography mt={3} variant="body2">• Como músico compositor e interprete (de 2004 a la  2022) he liderado mis proyectos de música original grabando 7 discos solistas, integrado grupos de jazz y orquestas sinfónicas de música académica contemporánea y clásica, presentándome en algunos de los más importantes escenarios de Buenos Aires:
 Teatro Colón, Usina del Arte, Museo de Arte Decorativo y Museo de Arte Moderno. Realicé 2 giras por Europa.</Typography>
         <Typography mt={1} variant="body2">• Como productor, lideré y gestioné un ciclo de música de autor en templos de distintas religiones y contenido audiovisual durante pandemia.</Typography>
